@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="p-3 text-bg-dark">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 "
+          >
+            <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input
+              type="search"
+              class="form-control form-control-dark text-bg-dark"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">
+              Login
+            </button>
+            <button type="button" class="btn btn-warning">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+      <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
+            Hello world sign-up form
+          </h1>
+          <p class="col-lg-10 fs-4">click in to sign up & enjoy .</p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+              />
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me" /> Remember me
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">
+              Sign up
+            </button>
+            <hr class="my-4" />
+            <small class="text-body-secondary"
+              >By clicking Sign up, you agree to the terms of use.</small
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluat bg-opacity-75 p-5">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="src/i.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="src/b.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="src/g.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mt-5">
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            New Release Note
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Note :)
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body position-relative">
+                  Release Notes - Version 3.2.0 New Features Dark Mode: We've
+                  added a new dark mode option! You can now switch between light
+                  and dark themes in the settings menu. Voice Commands: Navigate
+                  the app using voice commands. Just tap the microphone icon and
+                  start talking. Enhanced Notifications: Customize your
+                  notifications with new options for sound, vibration, and
+                  priority levels. Improvements Faster Load Times: We've
+                  optimized our code to improve app performance. You'll notice
+                  significantly faster load times. UI Enhancements: Minor tweaks
+                  to the user interface for a more intuitive experience.
+                  Accessibility: Improved screen reader support for visually
+                  impaired users. Bug Fixes Login Issues: Fixed a bug where some
+                  users were unable to log in after updating to the previous
+                  version. Crash Fixes: Addressed several crashes that occurred
+                  when opening the app on older devices. Sync Problems: Resolved
+                  an issue where data was not syncing properly across devices.
+                  Other Updates Security: Enhanced encryption protocols to keep
+                  your data safe and secure. Terms of Service: Updated our terms
+                  of service and privacy policy. Make sure to review the
+                  changes. Thanks for using our app! We’re always working to
+                  improve your experience. If you encounter any issues or have
+                  suggestions, please reach out to our support team. Happy
+                  exploring! The App Team
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">Done</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <table class="table table-hover border-success">
+            <tr>
+              <th class="bg-success text-white">Name</th>
+              <th class="bg-success text-white">Address</th>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col">
+          <table class="table table-hover border-danger">
+            <tr>
+              <th class="bg-danger text-white">Name</th>
+              <th class="bg-danger text-white">Address</th>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+        >
+          <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter" /></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram" /></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook" /></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col col-sm-12 col-md-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis amet
+            qui voluptatem modi quidem ducimus laborum laboriosam adipisci
+            architecto! Maiores aliquam aliquid explicabo doloremque
+            perspiciatis consequatur harum ullam, nesciunt quod!
+          </p>
+        </div>
+        <div class="col col-sm-12 col-md-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis amet
+            qui voluptatem modi quidem ducimus laborum laboriosam adipisci
+            architecto! Maiores aliquam aliquid explicabo doloremque
+            perspiciatis consequatur harum ullam, nesciunt quod!
+          </p>
+        </div>
+        <div class="col col-sm-12 col-md-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis amet
+            qui voluptatem modi quidem ducimus laborum laboriosam adipisci
+            architecto! Maiores aliquam aliquid explicabo doloremque
+            perspiciatis consequatur harum ullam, nesciunt quod!
+          </p>
+        </div>
+        <div class="col col-sm-12 col-md-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis amet
+            qui voluptatem modi quidem ducimus laborum laboriosam adipisci
+            architecto! Maiores aliquam aliquid explicabo doloremque
+            perspiciatis consequatur harum ullam, nesciunt quod!
+          </p>
+        </div>
+        <div class="col col-sm-12 col-md-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis amet
+            qui voluptatem modi quidem ducimus laborum laboriosam adipisci
+            architecto! Maiores aliquam aliquid explicabo doloremque
+            perspiciatis consequatur harum ullam, nesciunt quod!
+          </p>
+        </div>
+        <div class="col col-sm-12 col-md-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis amet
+            qui voluptatem modi quidem ducimus laborum laboriosam adipisci
+            architecto! Maiores aliquam aliquid explicabo doloremque
+            perspiciatis consequatur harum ullam, nesciunt quod!
+          </p>
+        </div>
+        <div class="col col-sm-12 col-md-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis amet
+            qui voluptatem modi quidem ducimus laborum laboriosam adipisci
+            architecto! Maiores aliquam aliquid explicabo doloremque
+            perspiciatis consequatur harum ullam, nesciunt quod!
+          </p>
+        </div>
+        <div class="col col-sm-12 col-md-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis amet
+            qui voluptatem modi quidem ducimus laborum laboriosam adipisci
+            architecto! Maiores aliquam aliquid explicabo doloremque
+            perspiciatis consequatur harum ullam, nesciunt quod!
+          </p>
+        </div>
+        <div class="col col-sm-12 col-md-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis amet
+            qui voluptatem modi quidem ducimus laborum laboriosam adipisci
+            architecto! Maiores aliquam aliquid explicabo doloremque
+            perspiciatis consequatur harum ullam, nesciunt quod!
+          </p>
+        </div>
+        <div class="col col-sm-12 col-md-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis amet
+            qui voluptatem modi quidem ducimus laborum laboriosam adipisci
+            architecto! Maiores aliquam aliquid explicabo doloremque
+            perspiciatis consequatur harum ullam, nesciunt quod!
+          </p>
+        </div>
+        <div class="col col-sm-12 col-md-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis amet
+            qui voluptatem modi quidem ducimus laborum laboriosam adipisci
+            architecto! Maiores aliquam aliquid explicabo doloremque
+            perspiciatis consequatur harum ullam, nesciunt quod!
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <div class="container">
+      <div class="row">
+        <div class=" col-lg-2 col-md-4 col-sm-12 ">
+          <div class="card m-5" style="width: 18rem">
+            <img src="src/i.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-2 col-md-4 col-sm-12 ">
+          <div class="card" style="width: 18rem">
+            <img src="src/i.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-2 col-md-4 col-sm-12 ">
+          <div class="card" style="width: 18rem">
+            <img src="src/i.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-2 col-md-4 col-sm-12 ">
+          <div class="card" style="width: 18rem">
+            <img src="src/i.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-2 col-md-4 col-sm-12 ">
+          <div class="card" style="width: 18rem">
+            <img src="src/i.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-2 col-md-4 col-sm-12 ">
+          <div class="card" style="width: 18rem">
+            <img src="src/i.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+       
+        
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
